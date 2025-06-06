@@ -16,7 +16,7 @@ const Navig = () => {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ms-auto text-uppercase" variant="underline">
-                                <Link to="/" className="nav-link">Accueil</Link>
+                                <Link to="/" className="nav-link">Home</Link>
                                 <Link to="/services" className="nav-link">Services</Link>
                                 <Link to="/realisations" className="nav-link">Portfolio</Link>
                                 <Link to="/contact" className="nav-link">Contact</Link>

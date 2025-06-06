@@ -1,15 +1,13 @@
-import "../App.css"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "../App.css";
 
 const Accueil = ()=>{
     return (
-        <div className="App-body">
-        <h1>Ma page APP</h1>
-        <h2>Accueil</h2>
-        
-        
+        <div className="hero ratio ratio-1x1">
+            <div className="hero-txt fs-1 fw-bolder">
+                <h1>Bonjour, je suis John Doe</h1>
+                <h2>Développeur web full stack</h2>
+            </div>
         </div> 
-
     )
 }
 export default Accueil;

@@ -7,6 +7,7 @@ import Realisations from "./pages/Realisations";
 import Accueil from "./pages/Accueil";
 import MentionsLegales from "./pages/MentionsLegales";
 
+
 export default function App () {
   return (
     <div>
@@ -17,7 +18,7 @@ export default function App () {
                   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto text-uppercase" variant="underline">
-                            <Nav.Link as={Link} to="/">Accueil</Nav.Link>
+                            <Nav.Link as={Link} to="/">Home</Nav.Link>
                             <Nav.Link as={Link} to="/services">Services</Nav.Link>
                             <Nav.Link as={Link} to="/realisations">Portfolio</Nav.Link>
                             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
@@ -52,9 +53,9 @@ export default function App () {
                         <li>06 06 06 06 06</li>
                         <li>johndoe@gmail.com</li>
                     </ul>
-                    <a href="https://github.com/github-john-doe" target="blank" className="link-light"><i class="bi bi-github fs-2 icone" rel="nofollow"></i></a>
-                    <a href="https://x.com/fr" target="blank" className="link-light"><i class="bi bi-twitter-x fs-2 mx-3 icone" rel="nofollow"></i></a>
-                    <a href="https://www.linkedin.com/in/johndoes/" target="blank" className="link-light"><i class="bi bi-linkedin fs-2 icone" rel="nofollow"></i></a>
+                    <a href="https://github.com/github-john-doe" target="blank" className="link-light"><i className="bi bi-github fs-2 icone" rel="nofollow"></i></a>
+                    <a href="https://x.com" target="blank" className="link-light"><i className="bi bi-twitter-x fs-2 mx-3 icone" rel="nofollow"></i></a>
+                    <a href="https://www.linkedin.com/in/johndoes/" target="blank" className="link-light"><i className="bi bi-linkedin fs-2 icone" rel="nofollow"></i></a>
                 </Col>
 
                 <Col className="mx-5 mb-4 colFooter">
