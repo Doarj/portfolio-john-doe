@@ -35,3 +35,18 @@ html {
     font-weight: 600;
     box-sizing: border-box;
 }
+
+.cardBox {
+  display: flex;
+  padding: 24px;
+  gap: 24px;
+  justify-content: center;
+  box-shadow: 0px 5px 5px 3px rgba(6, 6, 6, 0.1);
+  box-sizing: border-box;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
