@@ -50,3 +50,17 @@ html {
   overflow: hidden;
   width: 100%;
 }
+
+#modalContainer {
+  display: flex;
+}
+
+.modalDiv {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  box-sizing: border-box;
+}
+.modalDiv2 {
+  width: 50%;
+}
