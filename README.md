@@ -53,6 +53,6 @@ Il a pour but de tester les compétences du candidat dans les domaines suivants
     - du bouton droit de votre sourris cliquez sur le dossier portfolio-john-doe\
     - choisissez l'option "ouvrir dans la console"\
     - tapez la commande npm run start puis tapez sur la touche ENTRER\
-    - attendez un petit moment. Le projet s'ouvrira dans votre navigateur.
-5- Si ça ne marche pas
+    - attendez un petit moment. Le projet s'ouvrira dans votre navigateur\
+5- Si ça ne marche pas\
     - dans le terminal tapez la commande  tapez la commande npm install bootstrap bootstrap-icons web-vitals
