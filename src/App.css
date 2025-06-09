@@ -76,3 +76,35 @@ html {
   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.3));
 }
 
+.CardText {
+  font-family: Arial Narrow, sans-serif;
+  font-weight: 500;
+}
+
+.icone {
+  opacity: 0.6;
+}
+.icone:hover {
+  opacity: 1;
+}
+
+.colFooter {
+  width: 30%;
+}
+.linkFooter:hover {
+  font-weight: bold;
+}
+.linkText {
+  font-style: normal;
+}
+.btn.btn-portfolio:hover {
+  background-color: #3885f9;
+  border-color: #3885f9;
+}
+
+.AppModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}

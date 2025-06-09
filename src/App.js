@@ -72,12 +72,12 @@ export default function App () {
                 <Col className="mx-5 mb-4 colFooter">
                 <h3>Mes dernières réalisations</h3>
                     <ul className="list-group list-unstyled">
-                      <Link to="/realisations" className="nav-link">Fresh Food</Link>
-                      <Link to="/realisations" className="nav-link">Restaurant Akira</Link>
-                      <Link to="/realisations" className="nav-link">Espace bien-être</Link>
-                      <Link to="/realisations" className="nav-link">SEO</Link>
-                      <Link to="/realisations" className="nav-link">Création d'une API</Link>
-                      <Link to="/realisations" className="nav-link">Maquette d'un site</Link>  
+                      <Link to="/realisations" className="nav-link linkFooter">Fresh Food</Link>
+                      <Link to="/realisations" className="nav-link linkFooter">Restaurant Akira</Link>
+                      <Link to="/realisations" className="nav-link linkFooter">Espace bien-être</Link>
+                      <Link to="/realisations" className="nav-link linkFooter">SEO</Link>
+                      <Link to="/realisations" className="nav-link linkFooter">Création d'une API</Link>
+                      <Link to="/realisations" className="nav-link linkFooter">Maquette d'un site</Link>  
                     </ul>         
                 </Col>
             </Row>
